@@ -12,7 +12,6 @@ body{
     background-repeat: no-repeat;
     background-position: top center ;
     background-size: contain 55px;
-    /* background-attachment: fixed;     */
 }
 .container{
     width: 350px;
