@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    /* linear-gradient(to bottom, #d6e1ff 0%, #f0f4ff 60%); */
+    background: url("pattern-background-desktop.svg");
+    background-color: #a6b0cb 0%, #f0f4ff 60%; 
+    background-repeat: no-repeat;
+    background-position: top center ;
+    background-size: contain 55px;
+    /* background-attachment: fixed;    x
+     */
+}
+.container{
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+.illustration img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h1{
+    font-size: 24px;
+    margin: 20px 0 10px;
+    color: hsl(223, 47%, 23%);
+}
+.description{   
+    font-size: 14px;
+    counter-reset: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+    line-height: 1.6;
+    /* background-color: hsl(225, 100%, 98%); */
+    /* color: hsl(224, 23%, 55%); */
+    align-items: center;
+    line-height: 1.6;
+    opacity: 0.5;    
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.plan-details{
+    /* text-align: left; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.plan-details strong{
+    display: block;
+    color: hsl(223, 47%, 23%);
+}
+.plan-details span{
+    font-size: 14px;
+    /* color: hsl(224, 23%, 55%); */
+    opacity: 0.5;
+}
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+
+}
+.button-primary {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #3829e0;
+    box-shadow: 10px 10px 10px #16114d80;
+    color: white;
+}
+.button-secondary{
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    padding: 15px;
+    border: none;
+}
+.plan-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
