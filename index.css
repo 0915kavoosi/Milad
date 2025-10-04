@@ -7,14 +7,12 @@ body{
     height: 100vh;
     padding-bottom: 200px;
     padding-top: 200px;
-    /* linear-gradient(to bottom, #d6e1ff 0%, #f0f4ff 60%); */
     background: url("pattern-background-desktop.svg");
-    background-color: #a6b0cb 0%, #f0f4ff 60%; 
+    background-color:  hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-position: top center ;
     background-size: contain 55px;
-    /* background-attachment: fixed;    x
-     */
+    /* background-attachment: fixed;     */
 }
 .container{
     width: 350px;
@@ -28,7 +26,7 @@ body{
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-h1{
+.myclass h1{
     font-size: 24px;
     margin: 20px 0 10px;
     color: hsl(223, 47%, 23%);
